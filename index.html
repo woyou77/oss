@@ -1,31 +1,48 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>나의 웹페이지</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>홍길동</h1>
-    <img src="img/myphoto.png" alt="프로필 이미지">
-  </header>
-  <main>
-    <section class="intro">
-      <h2>자기소개</h2>
-      <p>안녕하세요! 저는 고등학교 1학년 홍길동입니다.</p>
-    </section>
-    <section class="interests">
-      <h2>관심사</h2>
-      <ul>
-        <li>코딩</li>
-        <li>그림 그리기</li>
-        <li>여행</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>📧 hong@gmail.com</p>
-  </footer>
-</body>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="contact">
+          <div class="overlap-group">
+            <div class="text-wrapper">hong@gmail.com</div>
+            <img class="email" src="img/email.png" />
+            <div class="text-wrapper-2">Contact</div>
+          </div>
+        </div>
+        <div class="interests">
+          <div class="overlap">
+            <div class="text-wrapper-3">Interests</div>
+            <button class="coding" onclick="location.href='https://coding.com';">
+                <div class="text-wrapper-4">Coding</div>
+            </button>
+            <button class="drawing" onclick="location.href='https://drawing.com';">
+                <div class="text-wrapper-5">Drawing</div>
+            </button>
+            <button class="traveling" onclick="location.href='https://traveling.com';">
+                <div class="text-wrapper-6">Traveling</div>
+            </button>
+          </div>
+        </div>
+        <div class="about">
+          <div class="overlap-2">
+            <div class="text-wrapper-7">About Me</div>
+            <p class="hello-i-am-hong-gil">Hello! I am Hong Gil-dong,<br />a high school student.</p>
+          </div>
+        </div>
+        <header class="header">
+          <div class="overlap-3">
+            <div class="text-wrapper-8">Hong Gil-dong</div>
+            <img class="ellipse" src="img/ellipse-1.png" />
+          </div>
+        </header>
+      </div>
+    </div>
+  </body>
 </html>
