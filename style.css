@@ -1,42 +1,24 @@
-.box {
-  width: 1440px;
-  height: 242px;
+body {
+  font-family: 'Pretendard', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
-.box .view {
-  position: fixed;
-  width: 1442px;
-  height: 242px;
-  top: 0;
-  left: 0;
+header, footer {
+  text-align: center;
+  background-color: #d5e8d4;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.box .overlap-group {
-  position: relative;
-  width: 1440px;
-  height: 242px;
-  background-color: #bceee8;
+img {
+  width: 120px;
+  border-radius: 50%;
 }
 
-.box .text-wrapper {
-  position: absolute;
-  width: 658px;
-  height: 150px;
-  top: 57px;
-  left: 137px;
-  font-family: "Inter-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 96px;
-  letter-spacing: -1.92px;
-  line-height: 52px;
-}
-
-.box .ellipse {
-  position: absolute;
-  width: 175px;
-  height: 175px;
-  top: 45px;
-  left: 1035px;
-  object-fit: cover;
+section {
+  margin: 30px 0;
 }
