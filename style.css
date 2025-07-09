@@ -1,0 +1,42 @@
+.box {
+  width: 1440px;
+  height: 242px;
+}
+
+.box .view {
+  position: fixed;
+  width: 1442px;
+  height: 242px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 242px;
+  background-color: #bceee8;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 658px;
+  height: 150px;
+  top: 57px;
+  left: 137px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 96px;
+  letter-spacing: -1.92px;
+  line-height: 52px;
+}
+
+.box .ellipse {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  top: 45px;
+  left: 1035px;
+  object-fit: cover;
+}
